@@ -1,0 +1,77 @@
+* {
+    margin:0px;
+    padding: 0px;
+    
+}
+.container{
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4982de;
+    
+}
+#calculator{
+    height: 600px;
+    width: 400px;
+    background-color: black;
+    border: 10px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#calculator-buttons{
+    height: 400px;
+    width: 400px;
+    padding-top: 25%;
+    
+}
+.operator{
+    height: 75px ;
+    width: 97px;
+    border-radius: 5%;
+    font-size: larger;
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+}
+#output{
+    height: 100px;
+    width: 350px;
+    background-color: rgb(164, 146, 146);
+    position: relative;
+    top: 5%;
+    font-size: 3rem;
+    border-radius: 10px solid rgb(12, 3, 31);
+}
+#allClear-btn{
+    height: 75px ;
+    width: 97px;
+    border-radius: 5%;
+    font-size: larger;
+    background-color: rgba(215, 1, 1, 0.897);
+    color: white;
+    margin-top: 5px;
+}
+#del-btn{
+    height: 75px ;
+    width: 97px;
+    border-radius: 5%;
+    font-size: larger;
+    background-color: rgba(215, 1, 1, 0.897);
+    color: white;
+    margin-top: 5px;
+}
+#equal-btn{
+    height: 75px ;
+    width: 97px;
+    border-radius: 5%;
+    font-size: larger;
+    background-color: rgba(215, 1, 1, 0.897);
+    color: white;
+    margin-top: 5px;
+}
+#row-01{
+    background-color: #03045e;
+}
